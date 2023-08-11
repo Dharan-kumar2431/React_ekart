@@ -1,0 +1,187 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+#sidebar {
+  z-index: 1000;
+  /* position: fixed; */
+  /* left: 300px; */
+  width: 300px;
+  height: 100%;
+  /* margin-left: -250px; */
+  overflow-y: auto;
+  /* background: #37474F; */
+  background-color: white;
+  padding-inline-start: 1.5rem;
+
+  /* -webkit-transition: all 0.5s ease; */
+  /* -moz-transition: all 0.5s ease; */
+  /* -o-transition: all 0.5s ease; */
+  /* transition: all 0.5s ease; */
+  border-right: 1px solid rgba(181, 179, 179, 0.5);
+}
+
+#sidebar header {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 2rem;
+  /* text-align: center; */
+}
+
+#sidebar header a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: black;
+}
+
+.sidebarcartimag{
+    width: 80% !important;
+    height: 13vh;
+}
+
+.cartcardtext{
+    padding-block-start: 0.5rem;
+}
+
+.cartruppe_icon{
+    margin-inline-start: 1rem;
+    height: 1rem;
+    margin-block-start: 0.2rem;
+}
+
+.cartcardname{
+    width: 5rem;
+}
+
+.cartcardprice{
+    margin-block-start: 0.1rem;
+}
+
+.carttext{
+    font-weight: 500;
+}
+
+.carticon{
+    margin: 5px;
+    margin-inline-start: 0.5rem;
+}
+
+.cartitem{
+    font-weight: bolder;
+    opacity: 0.5;
+    margin-inline-start: 1rem;
+}
+
+.cartcard{
+    width: 250px;
+}
+
+.cardpresentitemvalue{
+  display: none;
+}
+
+.catrgories{
+    margin-block: 2rem;
+}
+
+.sidenaveheading{
+    font-weight: bolder;
+}
+
+.cat_list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.cat_items {
+    margin-bottom: 0.5rem;
+    opacity: 0.7;
+}
+
+.color-round {
+    list-style-type: none;
+    padding: 0;
+    /* display: flex; */
+    flex-wrap: wrap;
+  }
+  
+  .color-round li {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  .color-round li span {
+    /* display: inline-block; */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .red { background-color: red; }
+  .orange { background-color: orange; }
+  .yellow { background-color: yellow; }
+  .green { background-color: green; }
+  .blue { background-color: blue; }
+  .indigo { background-color: indigo; }
+  .violet { background-color: violet; }
+
+  .color-round a {
+    color: black;
+    text-decoration: none;
+  }
+
+  input{
+    color: black;
+  }
+
+  .size_list {
+    list-style-type: none;
+    padding-left: 0;
+    /* margin-bottom: 5rem; */
+}
+
+.size_list li {
+    margin-bottom: 0.5rem;
+    opacity: 0.7;
+}
+
+.size_list li label{
+    margin-inline-start: 0.5rem;
+}
+
+.pricefilterheading{
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+
+.pricelable{
+  font-weight: bolder;
+  margin-inline-start: 1.5rem;
+}
+
+.ifunlable{
+  font-weight: bolder;
+  font-size: 2.5rem;
+  margin-inline-start: 0.1rem;
+}
+.priceinput{
+  width: 80%;
+  outline: none;
+}
+
+.filterbutton{
+  width: 80%;
+  margin-block: 2rem;
+  margin-inline-start: 1rem;
+}
+

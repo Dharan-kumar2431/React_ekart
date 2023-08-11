@@ -1,0 +1,24 @@
+.navbar{
+    height: 10vh;
+    /* background-color: #37474F; */
+    border-bottom: 1px solid rgba(181, 179, 179, 0.5);
+}
+
+.shooping_logo{
+    width: 3rem;
+    height: 5vh;
+}
+
+.profileimg{
+    width:5rem;
+    height: 100%;
+    border-radius: 50%; 
+    margin-inline-start: 60rem;
+    /* float: right; */
+}
+
+.profilename{
+    margin-inline-end: 2rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,88 @@
+.products_details{
+    margin: 2rem;
+}
+
+.cardrow{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productcards{
+    width: 18rem;
+    margin: 1rem;
+    margin-block-start: 1rem;
+}
+
+.card_img{
+    width: 100%;
+    height: 50vh;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.ruppe_icon{
+    margin-inline-start: 1.9rem;
+    height: 1.2rem;
+    margin-block-start: 0.2rem;
+}
+
+.price_details{
+    margin-inline-start: 0.2rem;
+}
+
+/* .price_details{
+} */
+
+.cardsizeheading{
+    font-weight: 600;
+}
+
+.cardcolorheading{
+    font-weight: 600;
+}
+
+.color-list{
+    padding-left: 0;
+}
+
+.color-list li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .color-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+
+  .cardadddetails{
+    display: none;
+  }
+
+.hovered{
+    display: block;
+}
+
+.cardbutton{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+}
+
+.addtocartbutton{
+    margin-inline-end: 1rem;
+}
+
+
+
+  

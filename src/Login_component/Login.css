@@ -1,0 +1,128 @@
+.formdiv{
+     width: 70%;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rgba(109, 108, 107, 0.5);
+    box-shadow: 0.8rem 0.5rem 0.5rem rgba(109, 108, 107, 0.5);
+
+}
+
+.alert{
+    background-color: #6e6d6b;
+    color: red;
+}
+
+.leftdiv{
+    background-image: url("../Assects/shoopingimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leftdivtextheading{
+    text-align: center;
+    margin-top: 500px;
+    color: white;
+}
+
+.rigthdiv{
+    background-color: white;
+    padding: 2rem;
+}
+
+.singinpageheading{
+    text-align: center;
+    padding-inline: 5rem;
+    padding-block: 2rem;
+    font-family: Pacifico;
+}
+
+.wlcomtext{
+    text-align: center;
+    font-size: 20px;
+    color: #6e6d6b;
+    font-weight: 500;
+    opacity: 0.5;
+    padding: 2rem;
+}
+
+.signinform{
+    margin-inline-start: 4rem;
+    color: black;
+}
+
+.loginforminput{
+    display: block;
+    border: none;
+    border-bottom: 1px solid rgba(109, 108, 107, 0.5);
+    width: 85%;
+    outline: none;
+}
+
+.inputlable{
+    color: #6e6d6b;
+    font-weight: bold;
+    opacity: 0.5;
+    padding-top: 1rem;
+}
+
+.forgotpassword{
+    text-align: right;
+    margin-inline-end: 4rem;
+    color: #6e6d6b;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.forgotpasslink{
+    color: #6e6d6b;
+    text-decoration: none;
+}
+
+.signinbutton{
+    text-align: center;
+    padding: 0.4rem;
+    padding-inline: 2.5rem;
+    margin-inline-start: 8rem;
+    border: none;
+    color: white;
+    background-color: #6e6d6b;
+    border-radius: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hrline{
+    width: 50%;
+    margin-inline-start: 8rem;
+    margin-bottom: 2rem;
+}
+
+
+.googleicon{
+    width: 1.5rem;
+    height: 4vh;
+    margin-inline-start: 10rem;
+}
+
+.singinlink{
+    padding-inline: 1rem;
+    color: #6e6d6b;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.createaccount{
+    color: #6e6d6b;
+    opacity: 0.5;
+}
+
+.newusertext{
+    margin-inline-start: 9rem;
+}
+
+.createaccountlink{
+    color: aquamarine;
+}
+
+
